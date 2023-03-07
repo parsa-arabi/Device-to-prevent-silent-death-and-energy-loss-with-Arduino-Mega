@@ -3,7 +3,6 @@
 #include <SoftwareSerial.h>
 #include <LiquidCrystal.h>
 #include "MQ7.h"
-#include <math.h>
 LiquidCrystal lcd(22, 23, 24, 25, 26, 27);
 SoftwareSerial mySerial(11, 10);
 
